@@ -1,4 +1,5 @@
-import React, { Link } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import landingImg from '../../assets/images/landing.svg';
 import pacienteIcon from '../../assets/images/icons/paciente.svg';
