@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import landingImg from '../../assets/images/landing.svg';
 import pacienteIcon from '../../assets/images/icons/paciente.svg';
 import psicologoIcon from '../../assets/images/icons/psicologo.svg';
-import api from '../../services/api.ts';
 
 import './styles.css';
 

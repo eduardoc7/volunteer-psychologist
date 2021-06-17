@@ -1,7 +1,7 @@
 {
   "name": "aep",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "axios": "^0.19.2",
     "cra-template": "1.0.3",
