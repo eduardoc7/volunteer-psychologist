@@ -7,7 +7,7 @@ O projeto Volunteer Psychologist foi desenvolvido pelos alunos do curso de Anál
 ---
 
 <p align="center">
-    <img alt="Volunteer-Psychologist Background" width="700px" src="https://raw.githubusercontent.com/eduardoc7/volunteer-psychologist/main/web/src/assets/images/page.png" />   
+    <img alt="Volunteer-Psychologist Background" width="700px" src="https://raw.githubusercontent.com/eduardoc7/volunteer-psychologist/blob/main/web/src/assets/images/page.PNG" />   
 </p>
 
 ---
