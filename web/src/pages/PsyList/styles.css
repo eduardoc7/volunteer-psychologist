@@ -1,0 +1,68 @@
+#page-psy-list {
+  width: 100vw;
+  height: 100vh;
+}
+
+#search-psys {
+  margin-top: 3.2rem;
+}
+
+#search-psys label {
+  color: var(--color-text-in-primary);
+}
+
+#search-psys button {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 3.2rem;
+  outline: 0;
+  
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  font: 700 1.6rem Archivo;
+  
+  border: 0;;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  
+  transition: background-color 0.2s;
+}
+
+#search-psys button:hover {
+  background: #E862A0;
+}
+
+#page-psy-list main {
+  margin: 3.2rem auto;
+  width: 90%;
+}
+
+@media (min-width: 700px) {
+  #page-psy-list {
+    max-width: 100%;
+  }
+
+  #search-psys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    position: absolute;
+    bottom: -28px;
+  }
+
+  #search-psys .input-block + .input-block,
+  #search-psys .select-block + .select-block {
+   margin-top: 0;
+ }
+
+ #page-psy-list main {
+   padding: 3.2rem 0;
+   max-width: 740px;
+   margin: 0 auto;
+ }
+}
