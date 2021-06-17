@@ -22,6 +22,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    // suppress errors for missing 'import React' in files
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'jsx-a11y/label-has-for': [2, {
       required: {
