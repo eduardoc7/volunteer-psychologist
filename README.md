@@ -12,7 +12,7 @@ O projeto Volunteer Psychologist foi desenvolvido pelos alunos do curso de Anál
 
 ---
 
-## Aplicação em produção - [Volunteer Psychologist](https://capicollect.herokuapp.com/)
+## Aplicação em produção - [Volunteer Psychologist](https://volunteer-psychologist.vercel.app)
 
 ---
 ## 📚 Technologies
