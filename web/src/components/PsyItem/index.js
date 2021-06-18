@@ -28,8 +28,8 @@ function PsyItem({ psy }) {
       </p>
 
       <footer>
-        <a href={psy.linkedin} target="_blank"><span id="linkedin"></span></a>
-        <a href={psy.pitch} target="_blank"><span id="pitch"></span></a>
+        <a href={psy.linkedin} target="_blank" rel="noopener noreferrer"><span id="linkedin"></span></a>
+        <a href={psy.pitch} target="_blank" rel="noopener noreferrer"><span id="pitch"></span></a>
 
         <button type="button" onClick={contactWpp}>
           <img src={wppIcon} alt="Whatsapp" />
